@@ -1,10 +1,4 @@
-Nice — I’ll write this like a **serious EVM product README**, the kind that instantly signals *“this is not a toy project”*.
-
-You can copy-paste this directly into `README.md` and tweak names later.
-
----
-
-# 🧵 ChainSupply
+# trkr
 
 **On-chain Inventory & Production Management for Manufacturing**
 
@@ -12,9 +6,8 @@ ChainSupply is a **production-grade inventory management platform** designed for
 
 It bridges **real-world manufacturing workflows** (raw materials → production → finished goods → distribution) with **on-chain transparency, auditability, and trust**.
 
----
 
-## 🌍 Why ChainSupply?
+## Why ChainSupply?
 
 Traditional inventory systems are:
 
@@ -32,9 +25,8 @@ ChainSupply brings **verifiable inventory records on-chain**, ensuring:
 
 Built specifically with **manufacturing at scale** in mind (cotton wool, diapers, sanitary pads).
 
----
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ChainSupply is a **hybrid on-chain + off-chain system**:
 
@@ -55,9 +47,8 @@ ChainSupply is a **hybrid on-chain + off-chain system**:
 
 This approach keeps gas costs low while preserving trust guarantees.
 
----
 
-## 🧠 Tech Stack
+## Tech Stack
 
 ### Blockchain
 
@@ -82,9 +73,8 @@ This approach keeps gas costs low while preserving trust guarantees.
 * **UI:** Modern component-driven architecture
 * **State Management:** Server Components + client state where needed
 
----
 
-## 🏭 Manufacturing Use Case
+## Manufacturing Use Case
 
 ChainSupply supports end-to-end manufacturing workflows:
 
@@ -117,9 +107,8 @@ ChainSupply supports end-to-end manufacturing workflows:
 * Adjustments & reconciliation
 * Low-stock alerts
 
----
 
-## 🔐 Roles & Permissions
+## Roles & Permissions
 
 * **Admin** – Full system access
 * **Inventory Manager** – Stock & warehouse control
@@ -128,23 +117,21 @@ ChainSupply supports end-to-end manufacturing workflows:
 
 Critical actions are **anchored on-chain** for auditability.
 
----
 
-## 📦 Core Features
+## Core Features
 
-* ✅ On-chain inventory event logging
-* ✅ Batch-based production tracking
-* ✅ Multi-warehouse stock management
-* ✅ Immutable audit trail
-* ✅ Role-based access control
-* ✅ Real-time stock visibility
-* ✅ Gas-efficient event design
-* 🚧 Advanced analytics (coming soon)
-* 🚧 Supplier on-boarding (coming soon)
+*  On-chain inventory event logging
+*  Batch-based production tracking
+*  Multi-warehouse stock management
+*  Immutable audit trail
+*  Role-based access control
+*  Real-time stock visibility
+*  Gas-efficient event design
+*  Advanced analytics (coming soon)
+*  Supplier on-boarding (coming soon)
 
----
 
-## 📜 Smart Contracts
+##  Smart Contracts
 
 Contracts are deployed on **Base** and handle:
 
@@ -160,11 +147,10 @@ Contracts are designed to be:
 * Gas-efficient
 * Upgrade-safe (via versioned deployments)
 
-> ⚠️ Business logic lives off-chain. The chain is used as the **source of truth**, not a computation engine.
+ Business logic lives off-chain. The chain is used as the **source of truth**, not a computation engine.
 
----
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -193,7 +179,6 @@ cd frontend
 pnpm dev
 ```
 
----
 
 ## 🔗 Network Configuration
 
@@ -204,9 +189,8 @@ pnpm dev
 
 Contracts are deployed and verified on Base.
 
----
 
-## 🔍 Auditing & Transparency
+## Auditing & Transparency
 
 Every critical inventory action emits an **on-chain event**:
 
@@ -223,37 +207,23 @@ This enables:
 * Dispute resolution
 * Trustless reporting
 
----
 
-## 🧪 Testing
+## Testing
 
 * Unit tests for smart contracts
 * Integration tests for backend
 * Role-based flow testing
 * Event indexing validation
 
----
 
-## 🛣️ Roadmap
+## Roadmap
 
-* 🔜 Supplier onboarding on-chain
-* 🔜 DAO-based governance for factories
-* 🔜 Zero-knowledge inventory proofs
-* 🔜 Multi-chain expansion
-* 🔜 ERP integrations
+*  Supplier onboarding on-chain
+*  DAO-based governance for factories
+*  Zero-knowledge inventory proofs
+*  Multi-chain expansion
+*  ERP integrations
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome.
-
-* Fork the repo
-* Create a feature branch
-* Open a PR with clear context
-* Follow existing code standards
-
----
 
 ## 📄 License
 
