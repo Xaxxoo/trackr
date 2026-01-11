@@ -71,7 +71,7 @@ export default function ProtectedRoute({
           <div className="text-center">
             <h1 className="text-2xl font-bold">Access Denied</h1>
             <p className="text-gray-600">
-              You don't have the required permission.
+              You do not have the required permission.
             </p>
           </div>
         </div>
